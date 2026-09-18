@@ -1,0 +1,6 @@
+@StockPilotWMS.API_HostAddress = http://localhost:5144
+
+GET {{StockPilotWMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

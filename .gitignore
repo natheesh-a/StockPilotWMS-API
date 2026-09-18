@@ -1,0 +1,41 @@
+## Build and Publish Outputs
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+## Visual Studio & IDE Files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## User-Specific / Local Settings
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+*.env
+*.env.local
+
+## Docker & Local Infrastructure
+.dockerignore
+# Uncomment below if you generate local SSL certs/keys:
+# *.pfx
+# *.pem
+
+## OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Logs & Temp Files
+*.log
+*.tmp
+*.temp

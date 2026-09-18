@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/StockPilotWMS.API/StockPilotWMS.API.csproj" />
+    <Project Path="src/StockPilotWMS.Application/StockPilotWMS.Application.csproj" />
+    <Project Path="src/StockPilotWMS.Domain/StockPilotWMS.Domain.csproj" />
+    <Project Path="src/StockPilotWMS.Infrastructure/StockPilotWMS.Infrastructure.csproj" />
+  </Folder>
+</Solution>
