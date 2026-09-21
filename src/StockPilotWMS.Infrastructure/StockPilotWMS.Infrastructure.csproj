@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\StockPilotWMS.Application\StockPilotWMS.Application.csproj" />
     <ProjectReference Include="..\StockPilotWMS.Domain\StockPilotWMS.Domain.csproj" />
+    <ProjectReference Include="..\StockPilotWMS.Sharedkernel\StockPilotWMS.SharedKernel.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

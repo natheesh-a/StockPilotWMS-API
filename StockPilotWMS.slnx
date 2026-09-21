@@ -5,4 +5,7 @@
     <Project Path="src/StockPilotWMS.Domain/StockPilotWMS.Domain.csproj" />
     <Project Path="src/StockPilotWMS.Infrastructure/StockPilotWMS.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/src/StockPilotWMS.SharedKernel/">
+    <Project Path="src/StockPilotWMS.SharedKernel/StockPilotWMS.Sharedkernel.csproj" />
+  </Folder>
 </Solution>
