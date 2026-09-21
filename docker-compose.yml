@@ -1,0 +1,27 @@
+services:
+
+  postgres:
+    image: postgres:18
+    container_name: stockpilotwms-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: stockpilotwms
+      POSTGRES_USER: stockpilot
+      POSTGRES_PASSWORD: stockpilot_dev_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - stockpilotwms-postgres-data:/var/lib/postgresql
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U stockpilot -d stockpilotwms"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+
+  stockpilotwms-postgres-data:

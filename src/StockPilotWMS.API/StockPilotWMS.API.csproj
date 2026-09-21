@@ -8,11 +8,18 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="WolverineFx" Version="6.39.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\StockPilotWMS.Application\StockPilotWMS.Application.csproj" />
     <ProjectReference Include="..\StockPilotWMS.Infrastructure\StockPilotWMS.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
 
 </Project>
